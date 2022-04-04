@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700;900&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css"
+      integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
+      crossorigin="anonymous"
+    />
+
+    <!--Boxicons-->
+    <link
+      href="https://unpkg.com/boxicons@2.1.1/css/boxicons.min.css"
+      rel="stylesheet"
+    />
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="css/style.css" />
+    <script src="js/main.js"></script>
+
+    <title>Painel Admin</title>
+  </head>
+
+  <body>
+    <!-- Header -->
+    <section>
+      <div class="sidebar">
+        <div class="logo_content">
+          <div class="logo">
+            <i class="bx bxs-parking"></i>
+            <div class="logo_name">Painel ADM</div>
+          </div>
+          <i class="bx bx-menu" id="btn"></i>
+        </div>
+        <ul class="nav_list">
+          <li>
+            <i class="bx bx-search"></i>
+            <input type="text" placeholder="Localizar" />
+            <span class="tooltip">Localizar</span>
+          </li>
+          <li>
+            <a href="#">
+              <i class="bx bx-user"></i>
+              <span class="links_name">Usuarios</span>
+            </a>
+            <span class="tooltip">Usuarios</span>
+          </li>
+          <li>
+            <a href="#">
+              <i class="bx bx-note"></i>
+              <span class="links_name">Noticias</span>
+            </a>
+            <span class="tooltip">Noticias</span>
+          </li>
+          <li>
+            <a href="#">
+              <i class="bx bxs-contact"></i>
+              <span class="links_name">Contato</span>
+            </a>
+            <span class="tooltip">Contato</span>
+          </li>
+          <li>
+            <a href="#">
+              <i class="bx bx-info-circle"></i>
+              <span class="links_name">Sobre</span>
+            </a>
+            <span class="tooltip">Sobre</span>
+          </li>
+          <li>
+            <a href="#">
+              <i class="bx bx-chat"></i>
+              <span class="links_name">E-mail</span>
+            </a>
+            <span class="tooltip">E-mail</span>
+          </li>
+        </ul>
+        <div class="profile_content">
+          <div class="profile">
+            <div class="profile_details">
+              <img src="img/logo1.jpg" alt="" />
+              <div class="name_job">
+                <div class="name">Renan</div>
+                <div class="job">Estágiario</div>
+              </div>
+            </div>
+            <i class="bx bxs-log-out" id="log_out"></i>
+          </div>
+        </div>
+      </div>
+      <div class="home_content">
+        <div class="content-table">
+          <div class="btn-table">
+            <a href="/new-register.html">
+              <button class="btn btn-primary" type="submit">
+                Novo Registro
+              </button>
+            </a>
+          </div>
+          <div class="content-table-new">
+            <table class="table">
+              <thead>
+                <tr>
+                  <th scope="col">ID</th>
+                  <th scope="col">Nome</th>
+                  <th scope="col">Sobrenome</th>
+                  <th scope="col">Email</th>
+                  <th scope="col">Telefone</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <th scope="row">1</th>
+                  <td>Mark</td>
+                  <td>Otto</td>
+                  <td>markotto@gmail.com</td>
+                  <td>(65-9632-6521)</td>
+                </tr>
+                <tr>
+                  <th scope="row">2</th>
+                  <td>Jacob</td>
+                  <td>Thornton</td>
+                  <td>jacob@gmail.com</td>
+                  <td>(65-9632-6521)</td>
+                </tr>
+                <tr>
+                  <th scope="row">3</th>
+                  <td>Larry</td>
+                  <td>the Bird</td>
+                  <td>larry@gmail.com</td>
+                  <td>(65-9632-6521)</td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>

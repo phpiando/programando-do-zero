@@ -1,0 +1,44 @@
+* {
+  margin: 0;
+  text-decoration: none;
+  padding: 0;
+}
+.card {
+  margin-top: 150px;
+}
+.screen-card-header {
+  padding: 0.5rem 1rem;
+  margin-bottom: 0;
+  background-color: #5860ff;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.125);
+  border-radius: 5px 5px 0px 0px;
+}
+.screen-card-header h3 {
+  font-size: 40px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  text-align: center;
+  color: #fff;
+}
+.screen-input {
+  margin-top: 15px;
+}
+.screen-input label {
+  margin-bottom: 5px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-weight: 400;
+}
+.btn-screen {
+  margin-top: 30px;
+  display: flex;
+  justify-content: space-between;
+}
+.btn-screen a {
+    font-size: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.btn-screen button {
+  width: 120px;
+  height: 50px;
+  font-size: 20px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
