@@ -49,15 +49,17 @@
           </li>
         </ul>
         <div class="profile_content">
-          <div class="profile">
-            <div class="profile_details">
-              <img src="img/logo1.jpg" alt="" />
-              <div class="name_job">
-                <div class="name">Renan</div>
-                <div class="job">Estágiario</div>
-              </div>
+          <a href="./logout.php">
+            <div class="profile">
+                <div class="profile_details">
+                <img src="img/logo1.jpg" alt="" />
+                <div class="name_job">
+                    <div class="name">Renan</div>
+                    <div class="job">Estágiario</div>
+                </div>
+                </div>
+                <i class="bx bxs-log-out" id="log_out"></i>
             </div>
-            <i class="bx bxs-log-out" id="log_out"></i>
-          </div>
+          </a>
         </div>
       </div>
