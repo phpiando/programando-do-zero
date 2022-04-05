@@ -7,6 +7,9 @@
     <title>Em breve</title>
 </head>
 <body>
-    <h1>Em breve</h1>
+    <h1>
+        Em breve estará online.     
+    </h1>
+    <a href="./admin">Admin</a>
 </body>
 </html>

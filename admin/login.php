@@ -1,7 +1,8 @@
+<?php include_once './config/config.php'; ?>
 <!DOCTYPE html>
 <html lang="pt-br">
   <head>
-    <title>PHpiando login</title>
+    <title><?php echo TITLE; ?></title>
     <!-- Required meta tags -->
     <meta charset="utf-8" />
     <meta
@@ -26,7 +27,7 @@
           <div class="col-md-6 offset-md-3">
             <div class="card">
               <div class="screen-card-header">
-                <h3>Login</h3>
+                <h3><?php echo TITLE; ?></h3>
               </div>
               <div class="card-body">
                 <form action="index.html" method="post">
