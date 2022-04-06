@@ -23,6 +23,13 @@
   <body>
     <div class="screen-login">
       <section class="container">
+      <!--  -->
+      <?php if(isset($_GET['error'])){ ?>
+      <div class="row">
+        <?= $_GET['error'] ?>
+      </div>
+      <?php } ?>
+      <!--  -->
         <div class="row">
           <div class="col-md-6 offset-md-3">
             <div class="card">
@@ -30,7 +37,7 @@
                 <h3><?= TITLE; ?></h3>
               </div>
               <div class="card-body">
-                <form action="index.html" method="post">
+                <form action="./controllers/login.php" method="post">
                   <div class="screen-input form-group">
                     <label for="email">Email</label>
                     <input
