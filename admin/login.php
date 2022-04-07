@@ -37,7 +37,7 @@
                 <h3><?= TITLE; ?></h3>
               </div>
               <div class="card-body">
-                <form action="./controllers/login.php" method="post">
+                <form action="./controllers/login.php?acao=conectar" method="post">
                   <div class="screen-input form-group">
                     <label for="email">Email</label>
                     <input
@@ -51,7 +51,7 @@
                     <label for="senha">Senha</label>
                     <input
                       type="password"
-                      name="senha"
+                      name="password"
                       id="senha"
                       class="form-control"
                     />
