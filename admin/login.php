@@ -1,4 +1,4 @@
-<?php include_once './config/config.php'; ?>
+<?php include_once './config/config.php';?>
 <!DOCTYPE html>
 <html lang="pt-br">
   <head>
@@ -22,15 +22,20 @@
   </head>
   <body>
     <div class="screen-login">
-      <section class="container">
+      <section class="container">        
         <div class="row">
-          <div class="col-md-6 offset-md-3">
+          <div class="col-md-6 offset-md-3">            
             <div class="card">
+                <div id="div-error" class="row" style="display:none;">
+                  <div class="col-sm-12">
+                    <div id="error-message" class="alert alert-danger" align="center"></div>
+                  </div>
+                </div>
               <div class="screen-card-header">
                 <h3><?= TITLE; ?></h3>
               </div>
               <div class="card-body">
-                <form action="index.html" method="post">
+                <form id="form-login" action="./controllers/userLogin.php" method="post">
                   <div class="screen-input form-group">
                     <label for="email">Email</label>
                     <input
@@ -38,22 +43,24 @@
                       name="email"
                       id="email"
                       class="form-control"
+                      required
                     />
                   </div>
                   <div class="screen-input form-group">
                     <label for="senha">Senha</label>
                     <input
                       type="password"
-                      name="senha"
+                      name="password"
                       id="senha"
                       class="form-control"
+                      required
                     />
                   </div>
                   <div class="btn-screen form-group">
                     <button type="submit" class="btn btn-primary">
                       Entrar
                     </button>
-                    <a href="#">Recuperar senha</a>
+                    <a id="recuperar-senha" href="#">Recuperar senha</a>
                   </div>
                 </form>
               </div>
@@ -73,5 +80,6 @@
       integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF"
       crossorigin="anonymous"
     ></script>
+    <script src="./js/login.js"></script>
   </body>
 </html>
