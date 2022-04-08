@@ -6,47 +6,28 @@
           </div>
           <i class="bx bx-menu" id="btn"></i>
         </div>
-        <ul class="nav_list">
+        <ul class="nav_list">          
           <li>
-            <i class="bx bx-search"></i>
-            <input type="text" placeholder="Localizar" />
-            <span class="tooltip">Localizar</span>
+            <a href="./">
+              <i class="bx bx-home"></i>
+              <span class="links_name">Home</span>
+            </a>
+            <span class="tooltip">Home</span>
           </li>
           <li>
-            <a href="#">
+            <a href="./usuarios">
               <i class="bx bx-user"></i>
               <span class="links_name">Usuarios</span>
             </a>
             <span class="tooltip">Usuarios</span>
           </li>
           <li>
-            <a href="#">
+            <a href="./postagens">
               <i class="bx bx-note"></i>
               <span class="links_name">Noticias</span>
             </a>
             <span class="tooltip">Noticias</span>
-          </li>
-          <li>
-            <a href="#">
-              <i class="bx bxs-contact"></i>
-              <span class="links_name">Contato</span>
-            </a>
-            <span class="tooltip">Contato</span>
-          </li>
-          <li>
-            <a href="#">
-              <i class="bx bx-info-circle"></i>
-              <span class="links_name">Sobre</span>
-            </a>
-            <span class="tooltip">Sobre</span>
-          </li>
-          <li>
-            <a href="#">
-              <i class="bx bx-chat"></i>
-              <span class="links_name">E-mail</span>
-            </a>
-            <span class="tooltip">E-mail</span>
-          </li>
+          </li>          
         </ul>
         <div class="profile_content">
           <a href="./logout.php">

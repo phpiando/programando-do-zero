@@ -14,7 +14,7 @@
     <section>
       <?php include_once './partials/menu.php'; ?>
 
-      <?php include_once './pages/home.php'; ?>
+      <?php include_once './pages/routes.php'; ?>
     </section>
     
     <?php include_once './partials/scripts.php'; ?>

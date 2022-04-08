@@ -1,5 +1,5 @@
 <div class="home_content">
-      <h1>Lista de Usuários</h1>
+<h1>Lista de Postagens</h1>
         <div class="content-table">
           <div class="btn-table">
             <a href="/new-register.html">

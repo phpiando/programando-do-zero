@@ -1,0 +1,13 @@
+DirectoryIndex index.php index.html index.htm
+
+#Desativar a navegação de subdiretorios do site
+Options -Indexes
+
+# # Entregue a pasta ou arquivo diretamente se existir no servidor
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+
+# ativa o plugin de reescrita do php (modrewrite)
+RewriteEngine on
+
+RewriteRule ^(.*+)$ index.php?page=$1 [L]

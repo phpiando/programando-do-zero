@@ -19,7 +19,7 @@ function error(response){
 }
 
 function success(response){
-
+    document.location.href = "./";
 }
 
 (function () {
@@ -27,7 +27,10 @@ function success(response){
 
     formLogin.addEventListener("submit", async function (event) {
         event.preventDefault();
-        
+
+        let divError = document.querySelector("#div-error");
+        divError.style.display = "none";
+
         let formData = new FormData(this);
 
         await connect(formData).then((response) => {

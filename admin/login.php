@@ -35,7 +35,7 @@
                 <h3><?= TITLE; ?></h3>
               </div>
               <div class="card-body">
-                <form id="form-login" action="./controllers/userLogin.php" method="post">
+                <form id="form-login" method="post">
                   <div class="screen-input form-group">
                     <label for="email">Email</label>
                     <input
